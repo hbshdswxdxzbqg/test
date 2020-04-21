@@ -1,12 +1,10 @@
 package com.lgorithm;
 
+/**
+ * 利用异或、与，取反运算
+ */
 public class Xor {
 
-    /**
-     * 利用异或、与，取反运算
-     * 
-     * @param args
-     */
     public static void main(String[] args) {
         int[] arrOne = { -1, 2, 3, 4, 10, 4, 3, 2, -1 };
         System.out.println(xorOne(arrOne));
